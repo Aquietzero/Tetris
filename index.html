@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TeTris</title>
+        <link rel="stylesheet" href="tetris.css" />
+        <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="tetris.js"></script>
+	    <script type="text/javascript" src="ui.js"></script>
+    </head>
+    <body>
+        <div class="left">
+        <div id="tetris">
+            <canvas id="playground" width="300px" height="600px">
+                <strong>IE and 360 browsers are not supported!</strong>
+            </canvas>
+        </div>
+        </div>
+
+        <div class="right">
+        <div id="level">
+            <div class="title">LEVEL</div>    
+            <canvas id="tetrisLevel" width="100px" height="40px">
+                <strong>IE and 360 browsers are not supported!</strong>
+            </canvas>
+        </div>
+        
+        <div id="next">
+            <div class="title">NEXT TETRIMINO</div>
+            <canvas id="nextTetrimino" width="100px" height="80px">
+                <strong>IE and 360 browsers are not supported!</strong>
+            </canvas>
+        </div>
+
+        <div id="mark">
+            <div class="title">POINTS</div>
+            <canvas id="tetrisMark" width="100px" height="40px">
+                <strong>IE and 360 browsers are not supported!</strong>
+            </canvas>
+        </div>
+        </div>
+
+        <!--Title-->
+        <div id="ZERO">
+            <h1>ZERO</h1>
+        </div>
+        <div id="TETRIS">
+            <h1>TETRIS</h1>
+        </div>
+        <!--Showups-->
+        <div id="levelup">
+            <h1>LEVEL UP!</h1>
+        </div>
+        <div id="congratulations">
+            <p>CONGRATULATIONS!</p>
+            <p>DO YOU WANT TO RESTART?</p>
+            <button class="yes">YES</button>
+            <button class="no">NO</button>
+        </div>
+        <div id="pause">
+            <p>PAUSE</p>
+            <div class="pauseBar"></div>
+            <div class="pauseBar"></div>
+        </div>
+        <div id="gameover">
+            <p>!GAME %&gt;_&lt;% OVER!</p>
+            <p>DO YOU WANT TO RESTART?</p>
+            <button class="yes">YES</button>
+            <button class="no">NO</button>
+        </div>
+        <!--Instructions-->
+        <div id="instructions">
+            <ul>
+                <li><strong>LEFT</strong>   - MOVE LEFT</li>
+                <li><strong>RIGHT</strong>  - MOVE RIGHT</li>
+                <li><strong>DOWN</strong>   - MOVE DOWN</li>
+                <li><strong>UP</strong>     - TURN 90 DEGREES</li>
+                <li><strong>SPACE</strong>  - PAUSE</li>
+                <li>20 POINTS PER LINE.</li>
+                <li>IF SEVERAL LINES ARE CANCELED SIMULTANEOUSLY, THEN THE POINTS YOU GET WILL BE MORE THAN THAT THEY ARE CANCELED INDIVIDUALLY.</li>
+                <li>THE HIGHEST LEVEL WILL BE 9. SINCE I CONSIDER THE VELOCITY IN LEVEL 9 IS FAST ENOUGH FOR MOST OF THE MASTERS.</li>
+            </ul>
+        </div>
+    </body>
+</html>
