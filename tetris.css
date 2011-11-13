@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.right {
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#tetris {
+    padding: 0;
+    margin: 0;
+
+    width: 300px;
+    border: solid 1px #666666;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+}
+
+#level {
+    width: 100px;
+    height: 60px;
+    border: solid 1px #666666;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+}
+
+#next {
+    width: 100px;
+    height: 110px;
+    border: solid 1px #666666;
+    margin-top: 20px;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+}
+
+#mark {
+    width: 100px;
+    height: 60px;
+    border: solid 1px #666666;
+    margin-top: 20px;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+}
+
+.title {
+    margin: 0;
+    color: #999999;
+    background-color: #333333;
+    text-shadow: 0 0 2px #666666;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+}
+
+#levelup {
+    width: 250px;
+    height: 100px;
+    color: red;
+    background-color: transparent;
+    text-align: center;
+    text-shadow: 0 0 5px yellow;
+}
+
+#ZERO, #TETRIS {
+    width: 350px;
+    height: 70px;
+    font-size: 30pt;
+    color: #666666;
+    background-color: transparent;
+    text-align: right;
+    text-shadow: 0 0 10px #333333;
+}
+
+#instructions {
+    width: 200px;
+    font-size: 10pt;
+    color: #666666;
+    border: solid 1px #666666;
+    padding-right: 20px;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+}
+
+#congratulations, #gameover {
+    padding: 0px;
+    margin: 0;
+
+    width: 270px;
+    height: 135px;
+    background-color: rgba(100, 100, 100, 0.75);
+    border: solid 2px #666666;
+    font-size: 16pt;
+    text-shadow: 0 0 10px #AAAAAA;
+    text-align: center;
+    font-weight: 900;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+}
+
+#congratulations p, #gameover p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+button {
+    margin: 5px 25px 8px 25px;
+    background-color: #333333;
+    font-size: 13pt;
+    font-weight: bold;
+    border: solid 1px #666666;
+    width: 60px;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.yes {
+    float: left;
+    width: 60px;
+}
+
+.no {
+    float: right;
+    width: 60px;
+}
+
+#pause {
+    padding: 0px;
+    margin: 0;
+
+    width: 130px;
+    height: 30px;
+    background-color: rgba(100, 100, 100, 0.75);
+    border: solid 2px #666666;
+    font-size: 16pt;
+    text-shadow: 0 0 10px #AAAAAA;
+    text-align: center;
+    font-weight: 900;
+    -moz-box-shadow: 0 0 10px #666666;
+    -webkit-box-shadow: 0 0 10px #666666;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+}
+
+#pause .pauseBar {
+    margin: 5px 0 0 5px;
+    padding: 0;
+    width: 5px;
+    height: 15px;
+    float: left;
+    background-color: #AAAAAA;
+    border: solid 1px #AAAAAA;
+    -moz-box-shadow: 0 0 5px #999999;
+    -webkit-box-shadow: 0 0 5px #999999;
+    text-vertical-align: center;
+}
+
+#pause p {
+    float: left;
+    width: 90px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    text-vertical-align: center;
+}
